@@ -1,0 +1,23 @@
+
+
+.header{
+    background-color: rgb(184, 170, 241);
+    height: 8vh;
+}
+
+
+.co{
+    border: 1px solid red;
+    height: 92vh;
+    display: inline-flexbox;
+}
+
+
+/*      Sidebar     */
+
+.menu{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

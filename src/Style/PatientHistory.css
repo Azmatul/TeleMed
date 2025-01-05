@@ -1,0 +1,18 @@
+.patientHistoryTemp{
+  display: flex;
+  margin-top: 1rem;
+  background-color: rgb(158, 150, 154);
+  border-radius: 1rem;
+}
+
+.docSectio{
+  border: 1px solid red;
+  border-radius: 2rem;
+  background: rgb(255, 212, 192);
+}
+
+.card{
+  height: 30vh;
+  justify-content: center;
+  background: transparent;
+}

@@ -1,0 +1,152 @@
+
+.nameCard{
+    border: 1px solid green;
+    margin-top: 0.8rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+}
+
+
+
+/**************** Search bar ****************/
+.search-bar {
+    display: flex;
+    background: #fff;
+    justify-self: center;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 5px 15px;
+    width: 69vw;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+  }
+
+.search-bar input {
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.search-bar .icon {
+    color: #666;
+    cursor: pointer;
+}
+
+.appContain{
+    display: flex;
+    align-items: center;
+}
+
+/**************** Categories Contain****************/
+.catbox {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: #f4f4f9;
+    padding: 10px;
+    margin-top: 2rem;
+  }
+  
+  .catHeader {
+    display: flex;
+    justify-content: space-between; /* Align categories and see all in one line */
+    align-items: center; /* Vertically align them */
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc; /* Optional: separator line */
+    padding-bottom: 5px;
+  }
+  
+  .catNameContainer {
+    display: flex;
+    flex-wrap: wrap; /* Wrap category cards */
+    gap: 15px; /* Space between cards */
+  }
+  
+  .catName {
+    flex: 1 1 calc(14.28% - 20px); /* Cards take one-third of the container */
+    max-width: calc(14.28% - 20px);
+    background-color: #fff;
+    border: 1px solid green;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .catName i, .catName svg {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #007bff; /* Optional: Icon color */
+  }
+  
+  .catName div {
+    font-size: 14px;
+    color: #555;
+    justify-items: center;
+  }
+
+
+
+
+  /**************** Doctor Contain****************/
+
+  .docbox {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: #f4f4f9;
+    padding: 10px;
+    margin-top: 2rem;
+  }
+  
+  .docHeader {
+    display: flex;
+    justify-content: space-between; /* Align categories and see all in one line */
+    align-items: center; /* Vertically align them */
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc; /* Optional: separator line */
+    padding-bottom: 5px;
+  }
+  
+.docCard{
+    background-color: #bef1fd;
+    width: 100%;
+    align-items: center;
+    align-self: center;
+    margin: 1rem 0rem;
+}
+
+/* Add these styles for positioning the favorite icon and rating */
+.favorite-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  /* Add these styles for the favorite icon */
+.favorite-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  /* Styling for the rating */
+  .stars {
+    font-size: 1.25rem;
+  }
+  
+  .rating-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
