@@ -1,0 +1,70 @@
+.consoltBox{
+    margin-top: 1rem;
+    border: 1px solid red;
+
+}
+
+.container{
+    margin: 1rem 8rem;
+    align-content: center;
+}
+
+.videoBox{
+    border: 1px solid green;
+    background-color: black;
+    height: 25rem;
+}
+
+
+.watingTitle{
+    background-color: antiquewhite;
+}
+
+
+.watingTitle{
+    font-size: 2rem;
+}
+
+.card{
+    margin-top: 0.2rem;
+}
+
+.info{
+    margin-top: 0.6rem;
+    text-align: start;
+}
+
+.icon a{
+    margin: 0rem 3rem;
+    font-size: 1.55rem;
+}
+
+.remTitle{
+    background-color: bisque;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.remainList{
+    background-color: rgb(230, 240, 240);
+    border-radius: 1rem;
+    margin: 1rem;
+    
+}
+
+.slot{
+    font-size: 1rem;
+}
+.slot i{
+    margin-right: 0.3rem ;
+}
+
+.Name{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.pro{
+    font-size: 1.5rem;
+    margin-right: 0.3rem;
+}

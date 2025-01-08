@@ -1,6 +1,7 @@
 
 import { Outlet } from "react-router";
 import Sidebar from "../Components/Sidebar";
+import Header from "../Components/Header";
 
 
 interface CommonLayoutProps {
@@ -11,7 +12,9 @@ export const CommonLayout: React.FC<CommonLayoutProps> = ({ user }) => {
   console.log("Rendering CommonLayout for:", user);
   return (
     <div>
-      <div className="container-fluid header">Header</div>
+      <div className="container-fluid header">
+        <Header/>
+      </div>
       <div>
         <div className="row">
           <div className="col-2 co">

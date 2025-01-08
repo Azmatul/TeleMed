@@ -1,4 +1,4 @@
-import { LuHeartPulse } from "react-icons/lu";
+
 
 export const PatientHistory = () => {
   return (

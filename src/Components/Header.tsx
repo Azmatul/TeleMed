@@ -3,7 +3,12 @@
 
 export const Header = () => {
   return (
-    <div>Header</div>
+    <>
+    <div className="contain text-center com">
+      <img src="./assets/logo.jpg" alt="logo" />
+      <span className="Title">TeleMed</span>
+    </div>
+    </>
   )
 }
 

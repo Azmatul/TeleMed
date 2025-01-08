@@ -1,8 +1,5 @@
 
 
-
-
-
 const Contain = () => {
   return (
     <div>Contain</div>
